@@ -8,7 +8,12 @@ img{
     width: 100%;
 }
 :root{
-    
+    --sm-h2:2em;
+    --md-h2:3em;
+    --font-color:#010304;
+    --sm-h3:1.5em;
+    --md-h2:1.5em;
+    --sm-p:1.1em;
 }
 body{
 

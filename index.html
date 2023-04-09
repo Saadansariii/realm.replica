@@ -13,21 +13,23 @@
   <title>realm</title>
 </head>
 <body>
-  <div class="nav-bar flex bg-[#010304] text-[#fff] py-[1em]">
-    <div class="realm-logo w-[120px] mx-[1em]">
-      <a href="#"><img class="realm-img" src="realm/realm logo.svg" alt="#"></a>
-    </div>
-    <div class="realm-ul">
-      <ul class="list-items hidden lg-[inline] flex gap-[1em] font-[Poppins] lg:block ">
-        <a href="#"><li>Learn</li></a>
-        <a href="#"><li>Community</li></a>
-        <a href="#"><li>Product</li></a>
-        <a href="#"><li>Docs</li></a>
-        <a href="#"><li>GetStarted</li></a>
-      </ul>
-    </div>
-    <div class="realm-head-button bg-[#6e60f9] p-[.5em] hidden lg:[inline]">
-      <a href="#">deploy a simple app</a>
+  <div class="navbar bg-[#010304]">
+    <div class="nav-bar max-w-[1200px] mx-[auto] flex justify-between text-[#fff] py-[1em]">
+      <div class="realm-logo w-[120px] mx-[1em]">
+        <a href="#"><img class="realm-img" src="realm/realm logo.svg" alt="#"></a>
+      </div>
+      <div class="realm-ul">
+        <ul class="list-items flex gap-[1em] font-[Poppins] hidden lg:inline-block">
+          <a href="#"><li>Learn</li></a>
+          <a href="#"><li>Community</li></a>
+          <a href="#"><li>Product</li></a>
+          <a href="#"><li>Docs</li></a>
+          <a href="#"><li>GetStarted</li></a>
+        </ul>
+      </div>
+      <div class="realm-head-button bg-[#6e60f9] p-[.5em] rounded-md hidden lg:inline">
+        <a href="#">deploy a simple app</a>
+      </div>
     </div>
   </div>
   <div class="showcase-area bg-[#010304] text-[#fff] ">
@@ -36,26 +38,39 @@
       <p class="showcase-paragraph text-md font-[Poppins]  max-w-2xl mx-auto">Realm is a fast,scalable.alternative to SQLite with mobile to cloud data sync that makes building real-time.reactive mobile apps easy.</p>
     </div>
     <div class="area-2 py-[1em] mx-[1em] font-[Rubik] text-md text-center">
-      <button class="area-button bg-[#6e60f9] py-[1em] w-full rounded-md">deploy a sample app</button>
-      <h4 class="area-h4 mt-[2em] "><a href="#"> view documentation <i class="fa fa-thin fa-arrow-right"></i></a></h4>
+      <button class=" bg-[#6e60f9] py-[1em] w-full rounded-md">deploy a sample app</button>
+      <h4 class=" mt-[2em] "><a href="#"> view documentation <i class="fa fa-thin fa-arrow-right"></i></a></h4>
     </div>
     <div class="wave">
-      <img class="wave border-[2px black] static z-2" src="realm/wave.svg" alt="#">
+      <img class=" static z-2" src="realm/wave.svg" alt="#">
     </div>
   </div>
-  <div class="uses-realm bg-[#ffffff] text-[#333]">
-    <h2>Why Use Realm?</h2>
-    <div class="cons-1">
-      <h3>Fast and lightweight and the best</h3>
-      <p>Build data rich apps without draining device resources with realm's lazy loadind and zero copy architecture.</p>
-    </div>
-    <div class="cons-2">
-      <h3>Simple to start and scale</h3>
-      <p>The object-oriented data model lets develops work direectly with native object-no ORMs or DAOs needed.</p>
-    </div>
-    <div class="cons-3">
-      <h3><i class="fa fa-thin fa-circle-check"></i>Build-in mobile to cloud sync</h3>
-      <p>Real-time mobile to cloud data sync makes it easy to build interactive features that keep data up-to-date across multiple devices,user,and the backend</p>
+
+
+  <div class="uses-realm mx-[1em] bg-[#ffffff] text-[length:var(--font-color)]">
+    <h2 class="text-[length:var(--sm-h2)] py-[1em]">Why Use Realm?</h2>
+    <div class="flex justify-between content-start flex-wrap">
+      <div class="cons-1 flex justify-between  md:max-w-[40%] lg:max-w-[30%]">
+        <div class="flex-cons-1 w-[10%]"><img class=" w-[40px] " src="realm/check.svg" alt=""></div>
+        <div class="flex-cons-2 w-[90%]">
+          <h3 class="font-[Rubik] text-[length:var(--sm-h3)] mb-[.5em]">Fast and lightweight and the best</h3>
+          <p class="font-[Phoppins] text-[length:var(--sm-p)]">Build data rich apps without draining device resources with realm's lazy loadind and zero copy architecture.</p>
+        </div>
+      </div>
+      <div class="cons-2 flex my-[1em]  md:max-w-[40%] lg:max-w-[30%]">
+        <div class="flex-cons-1 w-[10%]"><img class=" w-[40px]" src="realm/check.svg" alt=""></div>
+        <div class="flex-cons-2 w-[90%]">
+          <h3 class="mb-[.5em] font-[Rubik] text-[length:var(--sm-h3)]">Simple to start and scale</h3>
+          <p class="font-[Phoppins]">The object-oriented data model lets develops work direectly with native object-no ORMs or DAOs needed.</p>
+        </div>
+      </div>
+      <div class="cons-3 flex my-[1em]  md:max-w-[40%] lg:max-w[30%]">
+        <div class="flex-cons-1 w-[10%]"><img class="w-[40px]" src="realm/check.svg" alt="#"></div>
+        <div class="flex-cons-2 w-[90%]">
+          <h3 class="mb-[.5em] font-[Rubik] text-[length:var(--sm-h3)]">Build-in mobile to cloud sync</h3>
+          <p class="font-[Phoppins] text-[lenght:var(--sm-p)]">Real-time mobile to cloud data sync makes it easy to build interactive features that keep data up-to-date across multiple devices,user,and the backend</p>
+        </div>
+      </div>
     </div>
   </div>
 </body>
