@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>realm</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="text-black-300 m-[0px] p-[0px] bg-black">
+<body class="text-black-300 m-[0px] p-[0px] ">
     <div class="bg-black py-[2em] text-white lg:flex items-center lg:justify-between m-[auto]">
         <div class="ml-[1em]"><img src="realm/logo.svg" alt="logo" ></div>
-        <div class="">
+        <div class="font-Rubik">
             <ul class="gap-[1em] hidden lg:inline-block ">
                 <li class="lg:inline-block mx-[1.5em]"><a href="#">Learn</a></li>
                 <li class="lg:inline-block mx-[1.5em]"><a href="#">Community</a></li>
@@ -20,10 +21,48 @@
                 <li class="lg:inline-block mx-[1.5em]"><a href="#">Get started</a></li>
             </ul>
         </div>
-        <div class="bg-[#6e60f9] hidden lg:inline-block p-[.5em] rounded mr-[1em]">
+        <div class="bg-[#6e60f9] hidden lg:inline-block p-[.5em] rounded mr-[1em] font-Rubik ">
             <a href="#" class="">Deploy a sample app</a>
         </div>
     </div>
-
+    <div class="bg-black text-center m-[auto]">
+        <div class="text-white pt-[1.5em]">
+            <h2 class="mb-[1em] font-roboto text-3xl font-bold md:text-4xl md:font-black">Build better apps,faster.</h2>
+            <p class="sm:w-[80%] md:w-[70%] lg-[60%] m-[auto] font-Rubik text-lg font-light ">Realm is a fast, scalable alternative to SQLite with mobile to cloud data sync that makes building real-time, reactive mobile apps easy.</p>
+        </div>
+        <div class=" text-white font-roboto text-lg font-bold mt-[1.5em] md:mt-[2em] md:flex md:justify-center md:gap-[1em] relative">
+            <div class="bg-[#6e60f9] mb-[1em] mx-[1em] rounded-md p-[.8em] md:my-[auto]"><a href="#"><button class="">Deploy a sample app</button></a></div>
+            <div class="md:my-[auto]"><a href="#">View document</a><i class="fa fa-thin fa-arrow-right ml-[.5em]"></i></div>
+        </div>
+        <!-- <div class="bg-white relative max-w-[100%]">
+            <img src="realm/wave(1).svg" alt="wave" class="w-[100%] h-[100px] absolute top-0 z-1 border-[4px]">
+        </div> -->
+    </div>
+    <div class="bg-white text-white pt-[2em] relative z-5">
+        <div class="text-black mx-[1em] mb-[1em]"><h2 class="font-roboto font-black text-3xl md:text-4xl">Why Use Realm?</h2></div>
+    </div>
+    <div class="my-[2em] md:flex md:flex-wrap max-w-[1200px] w-[auto]">
+        <div class="flex my-[1em] mx-[1em] md:w-[40%] lg:w-[30%] ">
+            <div class="mr-[1em]"><img src="realm/check.svg" alt="check" class="w-[35px]"></div>
+            <div class="w-[70%]">
+                <h3 class="font-roboto text-xl font-bold">Fast and lightweight and the best</h3>
+                <p class="font-Rubik font-light text-lg pt-[1em]">Build data rich apps without draining device resources with Realm's lazy loading and zero-copy architecture.</p>
+            </div>
+        </div>
+        <div class="flex my-[1em] mx-[1em] md:w-[40%] lg:w-[30%]">
+            <div class="mr-[1em]"><img src="realm/check.svg" alt="check" class="w-[35px]"></div>
+            <div class="w-[70%]">
+                <h3 class="font-roboto text-xl font-bold">Simple to start and scale</h3>
+                <p class="font-Rubik font-light text-lg pt-[1em]">The object-oriented data model lets developers work directly with native objects – no ORMs or DAOs needed.</p>
+            </div>
+        </div>
+        <div class="flex my-[1em] mx-[1em] md:w-[40%] lg:w-[30%]">
+            <div class="mr-[1em]"><img src="realm/check.svg" alt="check"class="w-[35px]"></div>
+            <div class="w-[70%]">
+                <h3 class="font-roboto text-xl font-bold">Built-in mobile to cloud sync</h3>
+                <p class="font-Rubik font-light text-lg pt-[1em]">Real-time mobile to cloud data sync makes it easy to build interactive features that keep data up-to-date across multiple devices, users, and the backend.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
