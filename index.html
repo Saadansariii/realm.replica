@@ -10,25 +10,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="text-black-300 m-[0px] p-[0px] ">
-    <div class="bg-black py-[2em] text-white lg:flex items-center lg:justify-between m-[auto]">
-        <div class="ml-[1em]"><img src="realm/logo.svg" alt="logo" ></div>
-        <div class="font-Rubik">
-            <ul class="gap-[1em] hidden lg:inline-block ">
-                <li class="lg:inline-block mx-[1.5em]"><a href="#">Learn</a></li>
-                <li class="lg:inline-block mx-[1.5em]"><a href="#">Community</a></li>
-                <li class="lg:inline-block mx-[1.5em]"><a href="#">Product</a></li>
-                <li class="lg:inline-block mx-[1.5em]"><a href="#">Docs</a></li>
-                <li class="lg:inline-block mx-[1.5em]"><a href="#">Get started</a></li>
-            </ul>
-        </div>
-        <div class="bg-[#6e60f9] hidden lg:inline-block p-[.5em] rounded mr-[1em] font-Rubik ">
-            <a href="#" class="">Deploy a sample app</a>
+    <div class="bg-black py-[2em] text-white">
+        <div class="max-w-[1200px] lg:flex items-center lg:justify-between m-[auto]">
+            <div class="ml-[1em]"><img src="realm/logo.svg" alt="logo" ></div>
+            <div class="font-Rubik">
+                <ul class="gap-[1em] hidden lg:inline-block ">
+                    <li class="lg:inline-block mx-[1.5em]"><a href="#">Learn</a></li>
+                    <li class="lg:inline-block mx-[1.5em]"><a href="#">Community</a></li>
+                    <li class="lg:inline-block mx-[1.5em]"><a href="#">Product</a></li>
+                    <li class="lg:inline-block mx-[1.5em]"><a href="#">Docs</a></li>
+                    <li class="lg:inline-block mx-[1.5em]"><a href="#">Get started</a></li>
+                </ul>
+            </div>
+            <div class="bg-[#6e60f9] hidden lg:inline-block p-[.5em] rounded mr-[1em] font-Rubik lg:font-black">
+                <a href="#" class="">Deploy a sample app</a>
+            </div>
         </div>
     </div>
     <div class="bg-black text-center m-[auto]">
         <div class="text-white pt-[1.5em]">
             <h2 class="mb-[1em] font-roboto text-3xl font-bold md:text-4xl md:font-black">Build better apps,faster.</h2>
-            <p class="sm:w-[80%] md:w-[70%] lg-[60%] m-[auto] font-Rubik text-lg font-light ">Realm is a fast, scalable alternative to SQLite with mobile to cloud data sync that makes building real-time, reactive mobile apps easy.</p>
+            <p class=" sm:w-[80%] md:w-[70%] lg-[60%] m-[auto] font-Rubik text-lg font-light lg:w-[40%]">Realm is a fast, scalable alternative to SQLite with mobile to cloud data sync that makes building real-time, reactive mobile apps easy.</p>
         </div>
         <div class=" text-white font-roboto text-lg font-bold mt-[1.5em] md:mt-[2em] md:flex md:justify-center md:gap-[1em] relative">
             <div class="bg-[#6e60f9] mb-[1em] mx-[1em] rounded-md p-[.8em] md:my-[auto]"><a href="#"><button class="">Deploy a sample app</button></a></div>
@@ -83,9 +85,42 @@
         </div>
     </div>
     <div class="bg-[white]">
-        <div class="max-w-[1200px] m-[auto]">
+        <div class="max-w-[1200px] m-[auto] md:flex md:justify-between md:items-center">
             <div class="my-[1em] mx-[1em]"><h2 class="font-roboto text-xl font-bold md:text-3xl">Apps built with Realm</h2></div>
             <div class="mt-[1em] mx-[1em]"><a href="#"><i class="fa fa-thin fa-code-fork mr-[4px]" ></i>fork<span class="font-light text-sm text-[#9795f9] border-[1px] rounded-md p-[.2em]">8329</span></a><a href="#"><i class="fa fa-thin fa-star mr-[4px]"></i>star <span class="font-light text-sm text-[#9795f9] border-[1px] rounded-md p-[.2em]">64913</span> </a></div>
+        </div>
+        <div class="max-w-[1200px] m-[auto] ">
+            <p class="font-Rubik font-light text-lg md:text-x mx-[1em]">Thousands of apps are built on Realm — from hyper-growth startups to Fortune 500 companies.</p>
+            <h3 class="font-bold font-roboto text-xl text-[#6e60f9] mt-[1em] mx-[1em]">View Community projects <i class="fa fa-thin fa-arrow-right ml-[.5em]"></i></h3>
+        </div>
+        <div class="flex justify-between max-w-[1200px] m-[auto]">
+            <div class="md:flex mx-[1em] md:items-center md:justify-between gap-1em border-[6px]">
+                <div class="md:w-[300px] md:py-[1em] border-[2px] rounded-md "><img src="realm/Atlassian.svg" alt=""     class="m-[auto] md:m-[1em]"></div>
+                <div class="md:w-[300px] md:py-[1em] border-[2px] rounded-md "><img src="realm/THL.svg" alt=""           class="m-[auto] md:m-[1em]"></div>
+                <div class="md:w-[200px] md:py-[1em] border-[2px] rounded-md"><img src="realm/Imgur.png" alt=""          class="m-[auto] md:m-[1em]"></div>
+                <div class="md:w-[300px] md:py-[1em] border-[2px] rounded-md "><img src="realm/CBT Nuggets.svg" alt=""   class="m-[auto] md:m-[1em]"></div>
+            </div>
+            <div class="md-flex mx-[1em] md:items-center md:justify-between gap-1em border-[6px]">
+                <div class="w-[200px] just border-[2px] rounded-md "><img src="realm/Cox Automotive.svg" alt="" class="m-[auto]"></div>
+                <div class="w-[200px] just border-[2px] rounded-md "><img src="realm/Humanitix.svg" alt="" class="m-[auto]"></div>
+                <div class="w-[200px] just border-[2px] rounded-md "><img src="realm/7-Eleven.svg" alt="" class="m-[auto]"></div>
+                <div class="w-[200px] just border-[2px] rounded-md "><img src="realm/Cue.svg" alt="" class="m-[auto]"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#f9f9ff]">
+        <div class="max-w-[1200px] m-[auto]">
+            <div class="lg:flex">
+                <div class="mx-[1em]">
+                    <h2 class="font-roboto font-bold font-bold md:font-black text-xl md:text-3xl my-[1em]">Upcoming events & meetups</h2>
+                    <p class="text-black font-Rubik font-light text-xl md:text-xl">Join us for regular meetups and find out where our Engineers and Advocates are speaking at key events.</p>
+                    <p class="mt-[1em] text-black font-Rubik font-light text-xl md:text-xl">Missed a Realm event or meetup? Head over to our Youtube channel to catch up on the meetups and livestreams with our Realm team and community members.</p>
+                    <h3 class="text-[#6e60f9] text-lg font-roboto font-bold md:text-xl my-[1em]">View full calendar<i class="fa fa-thin fa-arrow-right ml-[.5em]"></i>Watch videos<i class="fa fa-thin fa-arrow-right ml-[.5em]"></i></h3>
+                </div>
+                <div class="lg-min-w-[400px] mx-[1em]">
+                    <img src="realm/upcoming events.jpg" alt="people" class="rounded-3xl">
+                </div>
+            </div>
         </div>
     </div>
 </body>
