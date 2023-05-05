@@ -5,30 +5,29 @@ body{
     padding: 0px;
     position: relative;
 }
-.positioning{
+/* .positioning{
     position: relative;
-}
-.positioning .positioning-1{
+} */
+/* .positioning .positioning-1{
     position: relative;
     z-index: 1;
-}
-.positioning .positioning-2{
+} */
+/* .positioning .positioning-2{
     margin: auto;
     border: 14px solid blue;
-}
+    height: 0px;
+} */
 
-.positioning .positioning-2 img{
+/* .positioning .positioning-2 img{
+   border: 4px solid red;
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
-    height: 1em;
+    height: 0px;
     width: 100%;
-    top: 0;
-    bottom: 10px;
     z-index: 2;
-}
+} */
 
 /* footer  */
  .grid{
@@ -47,6 +46,7 @@ body{
     grid-column: 6/12;
     grid-row: 1;
  }
+ 
 
  .grid .community{
     /* border: 3px solid yellow; */
@@ -81,5 +81,4 @@ body{
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
- }
+}

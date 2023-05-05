@@ -27,24 +27,25 @@
             </div>
         </div>
     </div>
-    <div class="positioning bg-black text-center m-[auto]">
+
+    <div class="relative bg-black text-center m-[auto]">
         <div class="text-white pt-[1.5em]">
             <h2 class="mb-[1em] font-roboto text-3xl font-bold md:text-4xl md:font-black">Build better apps,faster.</h2>
             <p class=" sm:w-[80%] md:w-[70%] lg-[60%] m-[auto] font-Rubik text-lg font-light lg:w-[40%]">Realm is a fast, scalable alternative to SQLite with mobile to cloud data sync that makes building real-time, reactive mobile apps easy.</p>
         </div>
-        <div class="positioning-1 text-white font-roboto text-lg font-bold mt-[1.5em] md:mt-[2em] md:flex md:justify-center md:gap-[1em] relative">
+        <div class="relative z-3 text-white font-roboto text-lg font-bold mt-[1.5em] md:mt-[2em] md:flex md:justify-center md:gap-[1em] relative">
             <div class="bg-[#6e60f9] mb-[1em] mx-[1em] rounded-md p-[.8em] md:my-[auto]"><a href="#"><button class="">Deploy a sample app</button></a></div>
             <div class="md:my-[auto]"><a href="#">View document</a><i class="fa fa-thin fa-arrow-right ml-[.5em]"></i></div>
         </div>
-    </div>
-    <div class="positioning-2">
-        <img src="realm/onewave(1).svg" alt="wave">
-    </div>
-    <!-- <div class="bg-white text-white max-w-[1200px] m-[auto]"> -->
-        <div class="bg-white text-white relative max-w-[1200px] m-[auto]">
-            <div class="text-black m-[2em]"><h2 class=" font-roboto font-black text-3xl md:text-4xl">Why Use Realm?</h2></div>
+        <div class="absolute w-[100%] h-[auto] z-2 start-0 end-1">
+            <img class="absolute w-[100%] h-[auto] z-2 start-0 end-1 bg-no-repeat bg-cover bg-center border-[4px]" src="realm/l1ch10z1aeh731mro-home_background-new-25.svg" alt="wave">
         </div>
+    </div>
+
+
+    <div class="bg-white text-black">
         <div class="max-w-[1200px] mx-[auto]">
+            <div class="text-black m-[2em]"><h2 class=" font-roboto font-black text-3xl md:text-4xl">Why Use Realm?</h2></div>
             <div class=" md:flex md:flex-wrap md:justify-between pb-[5em] mx-[2em]">
 
                 <div class="flex  my-[1em] md:w-[40%] lg:w-[30%]">
@@ -303,22 +304,20 @@
 
 
             <!-- stay up-to-date -->
-            <div class="border-y-[1px]">
+            <!-- <div class="border-y-[1px]"> -->
                 <div class="max-w-[1200px] m-[auto]">
-                    <div class="mx-[2em] py-[1em]">
-                        <div class="">
+                    <div class="mx-[2em] py-[1em] md:lg:flex lg:justify-between border-y-[1px] my-[1em]">
+                        <div class="lg:w-[70%]">
                             <h4 class="font-black font-roboto text-lg mb-[.5em]">Stay updated</h4>
                             <p class="font-light font-Rubik text-md">Realm’s newsletter keeps you up to date on product announcements, best practices, community events, and more.</p>
                         </div>
-                        <div class="">
-                            <div class="">
-                                <textarea class="" inputmode="" placeholder="Email address"></textarea>
-                                <button class="py-[.5em]">Subcribe</button>
-                            </div>
+                        <div class="items-center flex items-center gap-[1em] lg:w-[25%] my-[1em] lg:my-[0em]">
+                            <textarea class=" min-w-[40px] max-w-[400px] rounded-md  text-vertical" inputmode="" placeholder="Email address"></textarea>
+                            <button class="py-[.7em] px-[1em] rounded-md bg-[#6e60f9] ">Subcribe</button>
                         </div>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
             <div class="max-w-[1200px] m-[auto]">
                 <div class="lg:flex lg:justify-between lg:flex-row-reverse py-[2em]">
                     <div class="flex justify-between font-Rubik font-light text-md mx-[2em] lg:w-[60%]">
